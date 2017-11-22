@@ -5,6 +5,7 @@ def my_select(collection)
     while i < collection.length
       array.push(yield collection[i])
       i += 1
+    end  
   else
     puts "Hey! No block was given!"
   end
