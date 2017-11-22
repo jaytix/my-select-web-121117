@@ -6,7 +6,7 @@ def my_select(collection)
       even = yield collection[i]
         if even == true
           array.push(collection[i])
-        end  
+        end
       i += 1
     end
   else
