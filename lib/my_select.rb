@@ -3,9 +3,11 @@ def my_select(collection)
     array = []
     i = 0
     while i < collection.length
-      array.push(yield collection[i])
+      yield collection[i]
+        if true
+          array.push(collection[i])
       i += 1
-    end  
+    end
   else
     puts "Hey! No block was given!"
   end
