@@ -6,6 +6,7 @@ def my_select(collection)
       yield collection[i]
         if true
           array.push(collection[i])
+        end  
       i += 1
     end
   else
