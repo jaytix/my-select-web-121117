@@ -3,8 +3,8 @@ def my_select(collection)
     array = []
     i = 0
     while i < collection.length
-      yield collection[i]
-        if true
+      even = yield collection[i]
+        if even == true
           array.push(collection[i])
         end  
       i += 1
